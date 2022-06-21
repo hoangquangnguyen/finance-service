@@ -156,7 +156,64 @@
         </div>
       </div>
     </div>
-    <footer></footer>
+    <!-- FOOTER -->
+    <footer class="relative h-[400px] flex flex-col bg-black text-white">
+      <div class="flex flex-row items-start justify-between mt-[60px]">
+        <div class="flex flex-row items-start justify-around w-2/3">
+          <!-- loho -->
+          <div class="flex flex-col gap-y-[10px]">
+            <img
+              src="./assets/logo.svg"
+              alt=""
+              class="bg-mygradiant h-14 w-14"
+            />
+            <span>+84 - 1234567890</span>
+            <span>Rockefeller PlazaNew York, NY 10112</span>
+          </div>
+          <!-- Learn more -->
+          <div class="flex flex-col gap-y-[10px]">
+            <h2 class="font-bold text-lg">Learn More</h2>
+            <a href="">How it work</a>
+            <a href="">Who we are</a>
+            <a href="">Careers</a>
+            <a href="">Blog</a>
+            <a href="">FAQ</a>
+          </div>
+          <!-- Social -->
+          <div class="flex flex-col gap-y-[10px]">
+            <h2 class="font-bold text-lg">Social</h2>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="">Twitter</a>
+            <a href="">Pinterest</a>
+            <a href="">Linkedin</a>
+          </div>
+        </div>
+        <!-- Download -->
+        <div class="flex flex-col w-1/3 gap-y-[10px]">
+          <h2 class="font-bold text-lg">Downloads</h2>
+          <a href=""><img src="./assets/googleplay.svg" alt="" /></a>
+          <a href=""><img src="./assets/appstore.svg" alt="" /></a>
+        </div>
+      </div>
+
+      <!-- bottom -->
+      <div
+        class="absolute bottom-0 py-[20px] flex flex-col items-center justify-between"
+      >
+        <hr class="w-screen h-[1px] bg-white" />
+        <div
+          class="mt-[20px] flex flex-row items-center justify-between gap-x-[50px]"
+        >
+          <span>Copyright © 2022 Company Name All rights reserved</span>
+          <div class="flex flex-row items-center justify-between gap-4">
+            <a href="">Term of use</a>
+            <a href="">Privacy Police</a>
+            <a href="">Cardholder Agreement</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
