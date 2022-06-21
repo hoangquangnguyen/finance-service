@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .app {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+  .bg-mygradiant {
+    @apply bg-gradient-to-br from-[#C8C8C8] via-[#DBDBDB] to-primary-color;
+  }
+}
