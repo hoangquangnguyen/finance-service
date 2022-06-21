@@ -132,20 +132,26 @@
       </div>
       <img src="./assets/ggmap.png" alt="" class="w-3/5" />
     </div>
-    <!-- Section6 -->
+    <!-- Section6 Get In Touch.-->
     <div>
       <div class="h-[400px] bg-[#F2F2F2]">
         <div class="mx-[150px] pt-[60px] flex flex-col items-center">
           <h2 class="font-bold text-3xl">
-            Our Amazing Partners<span class="text-primary-color">.</span>
+            Get In Touch<span class="text-primary-color">.</span>
           </h2>
           <span class="text-primary-color text-base">short introduction</span>
-          <div
-            class="mt-[60px] grid grid-rows-3 grid-flow-col items-center gap-y-3 gap-x-6"
-          >
-            <img src="./assets/logo-dribbble.png" alt="" />
-            <img src="./assets/logo-google.png" alt="" />
-            <img src="./assets/logo-dribbble.png" alt="" />
+          <div class="mt-6 w-full px-[100px] flex flex-row items-center">
+            <div class="w-3/4 py-5 flex items-center bg-white">
+              <input
+                type="email"
+                placeholder="Type your Email Address"
+                class="w-full mx-3 outline-none p-0 font-bold"
+              />
+            </div>
+
+            <button class="w-1/4 bg-primary-color p-5 font-medium text-white">
+              Send Now
+            </button>
           </div>
         </div>
       </div>
