@@ -1,12 +1,14 @@
 <template>
   <div class="app overflow-x-hidden">
-    <!-- Section1 -->
-    <div class="h-[500px] bg-mygradiant">
-      <header class="px-6 py-[30px] flex items-center justify-between">
-        <img src="./assets/logo.svg" alt="" />
+    <!-- Section1 Header -->
+    <div class="relative z-10 h-[500px] bg-mygradiant">
+      <header
+        class="relative z-10 px-6 py-[30px] flex items-center justify-between"
+      >
+        <img src="./assets/logo.svg" alt="" class="h-24 w-24" />
         <ul class="flex gap-x-14 items-center">
-          <li class="text-primary-color">Home</li>
-          <li>Explore</li>
+          <li class="text-primary-color"><a href="">Home</a></li>
+          <li><a href="">Explore</a></li>
           <li>
             <button class="py-2 px-9 bg-primary-color text-white">
               Get Started
@@ -14,7 +16,7 @@
           </li>
         </ul>
       </header>
-      <div class="ml-80 mt-36">
+      <div class="relative z-10 ml-80 mt-[20px]">
         <h2 class="text-5xl font-bold max-w-3xl">
           Your strategy is only as good as you execute it.
         </h2>
@@ -22,8 +24,11 @@
           Get Started
         </button>
       </div>
+      <div
+        class="absolute z-0 top-0 left-0 w-full h-full bg-hero-pattern"
+      ></div>
     </div>
-    <!-- Section2 -->
+    <!-- Section2 Compani profile -->
     <div class="h-[500px]">
       <div class="mx-[150px] my-[60px] flex flex-col items-center">
         <h2 class="font-bold text-3xl">
@@ -44,7 +49,7 @@
         </div>
       </div>
     </div>
-    <!-- Section3 -->
+    <!-- Section3 Dream big Do right-->
     <div class="h-[600px] bg-mygradiant">
       <div class="mx-[150px] flex flex-col items-center">
         <span class="mt-[60px] text-primary-color text-base"
@@ -92,7 +97,7 @@
         </div>
       </div>
     </div>
-    <!-- Section4 -->
+    <!-- Section4 Our Amazing Partners-->
     <div class="h-[500px] bg-[#F2F2F2]">
       <div class="mx-[150px] pt-[60px] flex flex-col items-center">
         <h2 class="font-bold text-3xl">
@@ -117,7 +122,7 @@
         </div>
       </div>
     </div>
-    <!-- Section5 -->
+    <!-- Section5 Customer service-->
     <div
       class="h-[400px] px-[150px] my-[60px] flex flex-row items-center justify-between"
     >
