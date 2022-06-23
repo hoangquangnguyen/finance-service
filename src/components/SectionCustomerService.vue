@@ -13,7 +13,7 @@
         <span>Rockefeller PlazaNew York, NY 10112</span>
       </div>
     </div>
-    <img src="@/assets/ggmap.png" alt="" class="mt-[30px] lg:mt-0 lg:w-3/5" />
+    <img src="@/assets/ggmap.png" alt="" class="mt-[30px] lg:mt-0" />
   </div>
 </template>
 
