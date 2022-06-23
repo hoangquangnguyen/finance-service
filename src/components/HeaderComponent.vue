@@ -1,5 +1,5 @@
 <template>
-  <header class="relative z-10 h-[500px]">
+  <header class="relative z-10 h-[500px] bg-hero-pattern">
     <div
       class="relative z-10 flex items-center justify-between px-6 py-[10px] lg:py-[30px]"
     >
@@ -30,7 +30,7 @@
         Get Started
       </button>
     </div>
-    <div class="absolute top-0 left-0 z-0 h-full w-full bg-hero-pattern"></div>
+    <!-- <div class="absolute top-0 left-0 z-0 h-full w-full bg-hero-pattern"></div> -->
   </header>
 </template>
 <script lang="ts">
